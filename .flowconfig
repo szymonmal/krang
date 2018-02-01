@@ -1,0 +1,9 @@
+[ignore]
+.*/build/.*
+.*/.vscode/.*
+.*/.nyc_output/.*
+.*/coverage/.*
+
+[options]
+emoji=true
+suppress_comment=\\(.\\|\n\\)*\\$FlowIssue

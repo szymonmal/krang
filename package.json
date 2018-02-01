@@ -1,0 +1,52 @@
+{
+  "name": "krang",
+  "version": "0.1.0",
+  "description": "Testing playground for storybook with chiroma",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:szymonmal/krang.git"
+  },
+  "author": {
+    "name": "Szymon Malinowski",
+    "email": "szymonmal@gmail.com"
+  },
+  "dependencies": {
+    "material-design-icons": "^3.0.1",
+    "material-ui": "^1.0.0-beta.28",
+    "normalizr": "^3.2.4",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-redux": "^5.0.6",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "^1.1.0",
+    "redux": "^3.7.2",
+    "redux-devtools-extension": "^2.13.2",
+    "redux-saga": "^0.16.0",
+    "typeface-roboto": "0.0.54"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "test:ci":
+      "react-scripts test --env=jsdom --testResultsProcessor ./node_modules/jest-junit",
+    "test-coverage": "react-scripts test --env=jsdom --coverage",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.1",
+    "eslint": "^4.16.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-flowtype": "^2.41.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-prettier": "^2.5.0",
+    "eslint-plugin-react": "^7.6.1",
+    "flow-bin": "^0.64.0",
+    "jest-junit": "^3.4.1",
+    "prettier": "^1.10.2",
+    "react-test-renderer": "^16.2.0"
+  }
+}
