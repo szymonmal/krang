@@ -3,3 +3,57 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+.app {
+  text-align: center;
+}
+
+.header__logo {
+  animation: app-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.header {
+  text-align: center;
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.header--white {
+  background-color: white;
+  color: black;
+}
+
+.header__title {
+  font-size: 1.5em;
+}
+
+.app-intro {
+  font-size: large;
+}
+
+@keyframes app-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.app {
+  flex-grow: 1;
+}
+
+.app__content {
+  width: 100%;
+  padding: 1rem;
+}
+
+/* reset button link underline and color */
+.button-link {
+  text-decoration: none;
+  color: inherit;
+}

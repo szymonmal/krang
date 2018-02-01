@@ -1,12 +1,20 @@
+// @flow
+
 import React from 'react';
 
 import logo from '../../logo.svg';
 
-const Header = () => (
-  <header className="App-header">
-    <img src={logo} className="App-logo" alt="logo" />
-    <h1 className="App-title">Welcome to React</h1>
+type Props = {
+  white: boolean
+};
+
+const Header = ({ white }: Props) => (
+  <header className={`header ${white && 'header--white'}`}>
+    <img src={logo} className="header__logo" alt="logo" />
+    <h1 className="header__title">Welcome to React</h1>
   </header>
 );
+
+Header.displayName = 'Header';
 
 export default Header;
