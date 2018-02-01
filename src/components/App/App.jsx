@@ -12,8 +12,6 @@ import Header from '../Header';
 import Footer from '../Footer';
 import AsyncComponent from '../helpers/AsyncComponent';
 
-import './App.css';
-
 const primary = '#FFDA00'; // vattenfall new color for log top
 const secondary = '#2071B5'; // vattenfall new color for log bottom
 
