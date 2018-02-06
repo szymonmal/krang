@@ -33,7 +33,8 @@
     "test-coverage": "react-scripts test --env=jsdom --coverage",
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 9009 -s public",
-    "build-storybook": "build-storybook -s public"
+    "build-storybook": "build-storybook -s public",
+    "chromatic": "chromatic test --storybook-addon"
   },
   "devDependencies": {
     "@storybook/addon-actions": "^3.3.11",
