@@ -43,3 +43,5 @@ yarn-error.log*
 .node_repl_history
 
 /junit.xml
+
+storybook-static/
